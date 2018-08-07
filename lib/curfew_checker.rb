@@ -15,7 +15,9 @@ def simple_curfew_checker(time)
   elsif time == 11
    "It is exactly curfew."
   else
-    time_remaining = #{time}-#
+    time_remaining = #{time}-#{curfew}
+    "#{time_remaining}"
+    
  end
 end
 

@@ -18,4 +18,4 @@ def simple_curfew_checker(time)
  end
 end
 
-puts simple_curfew_checker(10)
+puts simple_curfew_checker(11)

@@ -9,12 +9,13 @@
 # puts simple_curfew_checker(10)
 
 def simple_curfew_checker(time)
+  curfew = 11
   if time > 11
    "Past curfew"
   elsif time == 11
    "It is exactly curfew."
   else
-    "It is not past curfew."
+    time_remaining = #{time}-#
  end
 end
 

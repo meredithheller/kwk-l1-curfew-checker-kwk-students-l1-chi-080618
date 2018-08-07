@@ -14,7 +14,7 @@ def simple_curfew_checker(time)
   elsif time == 11
    "It is exactly curfew."
   else
-    
+    "It is not past curfew."
  end
 end
 

@@ -15,10 +15,10 @@ def simple_curfew_checker(time)
   elsif time == 11
    "It is exactly curfew."
   else
-    time_remaining = #{time}-#{curfew}
-    "#{time_remaining}"
+    time_remaining = #{curfew}-#{time}
+    puts "#{time_remaining}"
     
  end
 end
 
-puts simple_curfew_checker(11)
+puts simple_curfew_checker(10)

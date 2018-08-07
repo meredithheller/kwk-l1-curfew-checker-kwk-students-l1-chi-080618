@@ -4,5 +4,7 @@ def martha(number)
   elsif number == 5
     puts "the number is 5"
   else 
-end
+  end
 end 
+
+martha(3)
